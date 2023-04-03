@@ -13,7 +13,6 @@ const Navbar = () => {
                 <div className="flex items-center justify-between">
                   <div className="">
                     <Link to="/" className="text-black">
-                     A
 
                     </Link>
                   </div>
