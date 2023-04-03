@@ -1,6 +1,7 @@
 import Neo from "../assets/matrix.jpg";
 import { AiFillGithub, AiOutlineDownload, AiOutlineMail } from "react-icons/ai";
 import { BsArrowUpRight } from "react-icons/bs";
+import SliderComponent from "../components/SliderComponent";
 
 const Home = () => {
   return (
@@ -10,17 +11,18 @@ const Home = () => {
 <div className="pb-[20px]">
         <h3 className="text-3xl font-black">Athenkosi Vinqi</h3>
       </div>
+      <div className="flex py-[25px]">
+        <img className="rounded-full h-[100px]" src={Neo} alt="profile image" />
+      </div>
+
       <div className="pb-[15px]">
         <p>
           Hi👋, my name is Athenkosi Vinqi I am a{" "}
           <span className="font-bold">Frontend Developer</span>.
         </p>
       </div>
-      <div className="flex">
-        <img className="rounded-full h-[100px]" src={Neo} alt="profile image" />
-      </div>
-
-      <div class="py-[50px]">
+    
+      <div class="pb-[50px]">
         <p className="lg:w-[900px]">
           I am an adaptable, innovative and fast learner with a number of
           skills. I am looking to develop my expertise in new concept
@@ -33,7 +35,11 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-4 ">
+      <div className="h-[100px] items-center overflow-hidden">
+        <SliderComponent/>
+      </div>
+
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 ">
         <a href="">
           <div className="flex border-[1px] rounded-lg justify-between items-center h-[50px] px-[20px] lg:px-[10px]">
             <div className="flex justify-center items-center gap-2">
