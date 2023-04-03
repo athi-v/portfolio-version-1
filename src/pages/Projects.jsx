@@ -1,94 +1,147 @@
+import {AiOutlineEye} from 'react-icons/ai'
 const Projects = () => {
     return (
     <div>
-    <div className="container mx-auto max-w-[90%] lg:max-w-screen-xl">
+    <div className="grid grid-cols-1 gap-auto lg:grid-cols-2  container mx-auto max-w-[90%] lg:max-w-screen-xl">
 
  <div class="py-[50px]">
-<h1>Projects I've worked on</h1>
-        <div className="pb-[10px]">
+<h1 className='font-bold text-3xl pb-[25px]'>Projects I've worked on:</h1>
+        
+        <div className="h-[70px] lg:h-[100px] border-b-2 lg:w-[400px] flex flex-row justify-between items-center">
 <div>
 Cristal Realty
 </div>
-<div>
-View Website
+<div className='flex flex-row items-center gap-2'>
+
+<div><AiOutlineEye/></div>
+<div>View Website
+</div>
 </div>
         </div>
 
-   <div className="pb-[10px]">
+   <div className="h-[70px] lg:h-[100px] border-b-2 lg:w-[400px] flex flex-row justify-between items-center">
 <div>
 Offshore Guide
 </div>
-<div>
-View Website
+<div className='flex flex-row items-center gap-2'>
+
+<div><AiOutlineEye/></div>
+<div>View Website
+</div>
 </div>
         </div>     
 
 
-        <div className="pb-[10px]">
+        <div className="h-[70px] lg:h-[100px] border-b-2 lg:w-[400px] flex flex-row justify-between items-center">
 <div>
 Utrasense
 </div>
-<div>
-View Website
+<div className='flex flex-row items-center gap-2'>
+
+<div><AiOutlineEye/></div>
+<div>View Website
 </div>
-        </div>
+</div>        </div>
 
 
         
-        <div className="pb-[10px]">
+        <div className="h-[70px] lg:h-[100px] border-b-2 lg:w-[400px] flex flex-row justify-between items-center">
 <div>
 Ecoslurry
 </div>
-<div>
-View Website
+<div className='flex flex-row items-center gap-2'>
+
+<div><AiOutlineEye/></div>
+<div>View Website
 </div>
-        </div>
+</div>        </div>
 
 
         
-        <div className="pb-[10px]">
+        <div className="h-[70px] lg:h-[100px] border-b-2 lg:w-[400px] flex flex-row justify-between items-center">
 <div>
 Malepha
 </div>
+<div className='flex flex-row items-center gap-2'>
+
+<div><AiOutlineEye/></div>
+<div>View Website
+</div>
+</div>        </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className='py-[50px]'>
+
+
+
+
+
+
+
+
+<h1 className='font-bold text-3xl pb-[25px]'>Personal projects:</h1>
+        
+        <div className="h-[70px] lg:h-[100px] border-b-2 lg:w-[400px] flex flex-row justify-between items-center">
 <div>
-View Website
+ByteData
+</div>
+<div className='flex flex-row items-center gap-2'>
+
+<div><AiOutlineEye/></div>
+<div>View Website
+</div>
 </div>
         </div>
 
+   <div className="h-[70px] lg:h-[100px] border-b-2 lg:w-[400px] flex flex-row justify-between items-center">
+<div>
+Mango+
+</div>
+<div className='flex flex-row items-center gap-2'>
+
+<div><AiOutlineEye/></div>
+<div>View Website
+</div>
+</div>
+        </div>     
 
 
+        <div className="h-[70px] lg:h-[100px] border-b-2 lg:w-[400px] flex flex-row justify-between items-center">
+<div>
+Chainpal
+</div>
+<div className='flex flex-row items-center gap-2'>
+
+<div><AiOutlineEye/></div>
+<div>View Website
+</div>
+</div>        </div>
 
 
+        
+      
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <h1>Personal Projects</h1>
-        <p className="lg:w-[900px]">
-          Ultr
-        </p>
-
-
-      </div>  
+</div>
+        
+        
+ 
       </div>
         </div>
     )

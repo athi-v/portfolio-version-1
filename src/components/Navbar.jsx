@@ -27,7 +27,7 @@ const Navbar = () => {
                   <Link to="/Snippets">Snippets</Link>
 
                   </div>
-                <div className="md:hidden">
+                <div className="lg:hidden">
                 
                   <button
                     onClick={toggleMenu}
@@ -57,7 +57,7 @@ const Navbar = () => {
               </div>
             </div>
             {isOpen && (
-              <div className="md:hidden">
+              <div className="lg:hidden">
                 <div className="px-2 pt-2 pb-3 sm:px-3">
                   <Link to="/" className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                     Home
