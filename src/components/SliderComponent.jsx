@@ -2,7 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import {AiFillHtml5} from 'react-icons/ai'
-import {SiTailwindcss, SiJavascript, SiWebflow} from 'react-icons/si'
+import {SiTailwindcss, SiJavascript, SiWebflow, SiFirebase} from 'react-icons/si'
 import {FaCss3Alt, FaBootstrap, FaReact} from 'react-icons/fa'
 
 
@@ -70,7 +70,11 @@ const SliderComponent = () => {
             <div><p className="text-md font-bold text-center">ReactJS</p></div>
           </div>
 
-        
+          <div className="flex flex-cols gap-[20px] justify-center items-center">
+            <div className="flex justify-center"><SiFirebase/></div>
+            <div><p className="text-md font-bold text-center">Firebase</p></div>
+          </div>
+
         </Slider>
       );
     };

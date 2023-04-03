@@ -5,7 +5,7 @@ import SliderComponent from "../components/SliderComponent";
 
 const Home = () => {
   return (
-    <div className="section pb-8">
+    <div className="section pb-8 relative">
 <div className="container mx-auto max-w-[90%] lg:max-w-screen-xl">
 
 <div className="pb-[20px]">
@@ -40,7 +40,7 @@ const Home = () => {
       </div>
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 ">
-        <a href="">
+        <a href="https://github.com/athi-v" target="_blank">
           <div className="flex border-[1px] rounded-lg justify-between items-center h-[50px] px-[20px] lg:px-[10px]">
             <div className="flex justify-center items-center gap-2">
               <div>
@@ -68,7 +68,7 @@ const Home = () => {
           </div>
         </a>
 
-        <a href="">
+        <a href="mailto:athenkosivinqi25@gmail.com?subject=Frontend Developer Vacancy&body=">
           <div className="flex border-[1px] rounded-lg justify-between items-center h-[50px] px-[20px] lg:px-[10px]">
             <div className="flex justify-center items-center gap-2">
               <div>
