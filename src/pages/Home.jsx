@@ -1,4 +1,5 @@
 import Neo from "../assets/matrix.jpg";
+import CV from "../assets/cv.pdf"
 import { AiFillGithub, AiOutlineDownload, AiOutlineMail } from "react-icons/ai";
 import { BsArrowUpRight } from "react-icons/bs";
 import SliderComponent from "../components/SliderComponent";
@@ -54,7 +55,7 @@ const Home = () => {
           </div>
         </a>
 
-        <a href="">
+        <a href={CV} target="_blank">
           <div className="flex border-[1px] rounded-lg justify-between items-center h-[50px] px-[20px] lg:px-[10px]">
             <div className="flex justify-center items-center gap-2">
               <div>

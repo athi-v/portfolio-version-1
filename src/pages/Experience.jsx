@@ -1,51 +1,52 @@
-import Webstreet from '../assets/invertimage.svg'
-import {GoLocation} from 'react-icons/go'
+import Webstreet from "../assets/invertimage.svg";
+import { GoLocation } from "react-icons/go";
 const Experience = () => {
-    return (
+  return (
     <div className="section">
-   <div className="container mx-auto max-w-[90%] lg:max-w-screen-xl h-[70vh] flex items-center">
+      <div className="container mx-auto max-w-[90%] lg:max-w-screen-xl pt-[80px]">
+        <div class="">
+<div className="grid grid-cols-5 lg:grid-cols-9 gap-5 lg:gap-2 border-b-2 pb-[10px]">
+<div className=" bg-black flex items-center justify-center h-[70px] w-[70px] lg:w-[70px] lg:h-[50px]">
+              <img src={Webstreet} className="h-[60px] w-[50px] lg:h-[50px] invert" />
+            </div>
 
-<div class="">
-<div className='flex flex-row items-center gap-5'>
-   <div>
-      <img src={Webstreet}  className="h-[30px]"/>
-   </div>
-   <div className='font-semibold text-3xl'>Webstreet</div>
+            <div className="grid grid-cols-1 col-span-4 lg:col-span-8">
+            <div className="text-xl font-semibold">Frontend Developer </div>
+
+            <div className="font-normal">Webstreet · Fulltime</div>
+            <div className="flex flex-row items-center gap-5 ">
+              <div className="font-normal"> Remote</div>
+            </div>
+            <div className="font-normal">
+              <div className="">September 2022 - Present </div>
+            </div>
+
+<div className="pt-[20px]">
+<div className="font-medium">Tech Stack:</div>
+            <div className="text-sm text-gray-500">HTML</div>
+            <div className="text-sm text-gray-500">CSS</div>
+            <div className="text-sm text-gray-500">TailwlindCSS</div>
+            <div className="text-sm text-gray-500">Bootstrap</div>
+            <div className="text-sm text-gray-500">Javascript</div>
+            <div className="text-sm text-gray-500">JQuery</div>
+            <div className="text-sm text-gray-500">Pinegrow</div>
+            <div className="text-sm text-gray-500">Webflow</div>
+            <div className="text-sm text-gray-500">Git</div>
+            <div className="text-sm text-gray-500">BitBucket</div>
+
+
 </div>
 
-       <p className="lg:w-[900px]">
-         <div className='flex flex-row items-center gap-4 pt-[10px]'>
-         <div>
-         <GoLocation />
-         </div>
-         <div className='font-medium'>         Remote
+            </div>
+
 </div>
+
          
-         </div>
-         <div className='pt-[20px] font-medium'>
-         <div>
-         Webflow Developer
-         </div>
-         <div className='italic'>
-         September 2022 - December 2022
-         </div>
-         </div>
 
-         <div className='pt-[20px] font-medium'>
-         <div>
-         Lead Webflow Frontend Developer         </div>
-         <div className='italic'>
-         January 2022 - Present         </div>
-         </div>
-
-
-         <div> </div>
-
-       </p>
-     </div>  
-     </div>
+        </div>
+      </div>
     </div>
-    )
-    };
-    
-    export default Experience;
+  );
+};
+
+export default Experience;
