@@ -6,9 +6,11 @@ const Experience = () => {
       <div className="container mx-auto max-w-[90%] lg:max-w-screen-xl pt-[80px]">
         <div class="">
 <div className="grid grid-cols-5 lg:grid-cols-9 gap-5 lg:gap-2 border-b-2 pb-[10px]">
+<a href="https://www.webstreet.co.za/" target="_blank" >
 <div className=" bg-black flex items-center justify-center h-[70px] w-[70px] lg:w-[70px] lg:h-[50px]">
               <img src={Webstreet} className="h-[60px] w-[50px] lg:h-[50px] invert" />
             </div>
+</a>
 
             <div className="grid grid-cols-1 col-span-4 lg:col-span-8">
             <div className="text-xl font-semibold">Frontend Developer </div>

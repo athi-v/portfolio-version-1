@@ -1,4 +1,4 @@
-import { AiOutlineEye } from "react-icons/ai";
+import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 const Projects = () => {
   return (
     <div>
@@ -66,6 +66,20 @@ const Projects = () => {
                 <div className="font-medium">View Website</div>
               </div>
             </a>{" "}
+          </div>
+
+
+          
+          <div className="h-[70px] lg:h-[100px] border-b-2 lg:w-[400px] flex flex-row justify-between items-center">
+            <div className="font-semibold  text-gray-400">Webstreet</div>
+            {/* <a href=""> */}
+              <div className="flex flex-row items-center gap-2">
+                <div>
+                  <AiOutlineEyeInvisible/>
+                </div>
+                <div className="font-medium text-gray-400">View Website</div>
+              </div>
+            {/* </a>{" "} */}
           </div>
         </div>
 
