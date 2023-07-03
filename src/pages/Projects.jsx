@@ -71,15 +71,15 @@ const Projects = () => {
 
           
           <div className="h-[70px] lg:h-[100px] border-b-2 lg:w-[400px] flex flex-row justify-between items-center">
-            <div className="font-semibold  text-gray-400">Webstreet</div>
-            {/* <a href=""> */}
+            <div className="font-semibold ">Webstreet</div>
+            <a href="https://www.webstreet.digital/" target="_blank">
               <div className="flex flex-row items-center gap-2">
                 <div>
-                  <AiOutlineEyeInvisible/>
+                  <AiOutlineEye/>
                 </div>
-                <div className="font-medium text-gray-400">View Website</div>
+                <div className="font-medium ">View Website</div>
               </div>
-            {/* </a>{" "} */}
+            </a>{" "}
           </div>
         </div>
 

@@ -2,33 +2,33 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import {AiFillHtml5} from 'react-icons/ai'
-import {SiTailwindcss, SiJavascript, SiWebflow, SiFirebase} from 'react-icons/si'
+import {SiTailwindcss, SiChakraui, SiJavascript, SiWebflow, SiFirebase} from 'react-icons/si'
 import {FaCss3Alt, FaBootstrap, FaReact} from 'react-icons/fa'
 
 
 
 const SliderComponent = () => {
     const settings = {
-        dots: false,
+        dots: true,
       infinite: true,
       slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,
       speed: 2000,
       autoplaySpeed: 2000,
-      cssEase: "linear",
+      cssEase: "ease",
       responsive: [
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
             autoplay: true,
             speed: 2000,
             autoplaySpeed: 2000,
-            cssEase: "linear",
-            dots: false
+            cssEase: "ease",
+            
           }
         },
     ]
@@ -53,6 +53,11 @@ const SliderComponent = () => {
           <div className="flex flex-cols gap-[20px] justify-center items-center">
             <div className="flex justify-center"><SiTailwindcss /></div>
             <div><p className="text-md font-bold text-center">TailwindCSS</p></div>
+          </div>
+
+          <div className="flex flex-cols gap-[20px] justify-center items-center">
+            <div className="flex justify-center"><SiChakraui /></div>
+            <div><p className="text-md font-bold text-center">Chakra UI</p></div>
           </div>
 
           <div className="flex flex-cols gap-[20px] justify-center items-center">
